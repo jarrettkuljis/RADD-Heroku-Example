@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const bot = new SlackBot({
     token: `${process.env.BOT_TOKEN}`,
-    name: 'inspirenuggets'
+    name: 'HappyBot'
 })
 
 // Start Handler
@@ -16,7 +16,7 @@ bot.on('start', () => {
 
     bot.postMessageToChannel(
         'random',
-        'Get inspired while working with @inspirenuggets',
+        'Get inspired while working with @jarrettkuljis',
         params
     );
 })
