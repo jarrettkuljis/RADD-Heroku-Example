@@ -37,7 +37,7 @@ bot.on('message', (data) => {
     if(data.type !== 'message') {
         return;
     }
-    handleMessage(data.type);
+    handleMessage(data.text);
 })
 
 // Response Handler
