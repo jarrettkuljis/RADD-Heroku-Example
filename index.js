@@ -30,8 +30,8 @@ bot.on('error', (err) => {
 // Message Handler
 bot.on('message', (data) => {
 
-    console.log(data.type);
-    console.log(data.text);
+    console.log('DATA TYPE '+data.type);
+    console.log('DATA TEXT '+data.text);
 
     if(data.type !== 'message') {
         return;
