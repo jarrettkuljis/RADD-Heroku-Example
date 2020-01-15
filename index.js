@@ -4,7 +4,7 @@ const pingmydyno = require('pingmydyno');
 require('dotenv').config();
 
 const bot = new SlackBot({
-    token: ENV['TOKEN'],
+    token: process.env.TOKEN,
     name: 'sarcasti-bot'
 })
 
