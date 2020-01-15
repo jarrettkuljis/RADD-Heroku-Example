@@ -49,8 +49,22 @@ function handleMessage(message) {
         randomJoke()
     } else if(message.includes(' help')) {
         runHelp()
+    } else if(message.includes( 'radd')) {
+        runRADD()
     }
 
+}
+
+function runRADD() {
+    const params = {
+        icon_emoji: ':question:'
+    }
+
+    bot.postMessageToChannel(
+        'radd-heroku-demo',
+        `Type *@sarcasti* with *inspire me* to get a techie quote, *random joke* to get a Chuck Norris random joke and *help* to get this instruction again`,
+        params
+    );
 }
 
 // inspire Me
@@ -67,7 +81,7 @@ function inspireMe() {
             }
         
             bot.postMessageToChannel(
-                'random',
+                'radd-heroku-demo',
                 `:zap: ${quote} - *${author}*`,
                 params
             );
@@ -86,7 +100,7 @@ function randomJoke() {
             }
         
             bot.postMessageToChannel(
-                'random',
+                'radd-heroku-demo',
                 `:zap: ${joke}`,
                 params
             );
@@ -101,7 +115,7 @@ function runHelp() {
     }
 
     bot.postMessageToChannel(
-        'random',
+        'radd-heroku-demo',
         `Type *@sarcasti* with *inspire me* to get a techie quote, *random joke* to get a Chuck Norris random joke and *help* to get this instruction again`,
         params
     );
