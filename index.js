@@ -106,6 +106,8 @@ const http = require('http');
 const fs = require('fs');
  
 http.createServer(function (req, res) {
+
+    console.log(req.url);
     
     if (req.url == '/') {
         res.writeHead(302, { "Location": "https://" + 'slack.com' });
@@ -120,5 +122,5 @@ http.createServer(function (req, res) {
         });
     } 
 }).listen(`${process.env.PORT}`, () => {
-    pingmydyno('https://myapp.herokuapp.com');
+    pingmydyno('https://happybot-radd-example.herokuapp.com');
 });
