@@ -33,11 +33,11 @@ bot.on('message', (data) => {
     console.log('DATA TYPE '+data.type);
     console.log('DATA TEXT '+data.text);
     console.log(data);
-    
+
     if(data.type !== 'message') {
         return;
     }
-    handleMessage(data.text);
+    handleMessage(data.type);
 })
 
 // Response Handler
