@@ -31,6 +31,7 @@ bot.on('error', (err) => {
 bot.on('message', (data) => {
 
     console.log(data.type);
+    console.log(data.text);
 
     if(data.type !== 'message') {
         return;
