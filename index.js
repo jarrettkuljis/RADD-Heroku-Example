@@ -29,6 +29,9 @@ bot.on('error', (err) => {
 
 // Message Handler
 bot.on('message', (data) => {
+
+    console.log(data.type);
+
     if(data.type !== 'message') {
         return;
     }
