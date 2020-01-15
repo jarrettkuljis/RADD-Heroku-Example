@@ -17,8 +17,8 @@ bot.on('start', () => {
     }
 
     bot.postMessageToChannel(
-        'random',
-        'Get inspired while working with @jarrettkuljis',
+        'radd-heroku-demo',
+        'Having fun with RADD and @jarrettkuljis',
         params
     );
 })
