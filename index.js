@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const bot = new SlackBot({
     token: process.env.TOKEN,
-    name: 'raddybot'
+    name: 'slacky'
 })
 
 
@@ -50,7 +50,7 @@ function handleMessage(message) {
     } else if(message.includes(' help')) {
         runHelp()
     }
-    
+
 }
 
 // inspire Me
