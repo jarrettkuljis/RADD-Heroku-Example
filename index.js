@@ -100,7 +100,7 @@ function runHelp() {
 
     bot.postMessageToChannel(
         'random',
-        `Type *@inspirenuggets* with *inspire me* to get an inspiring techie quote, *random joke* to get a Chuck Norris random joke and *help* to get this instruction again`,
+        `Type *@sarcasti* with *inspire me* to get a techie quote, *random joke* to get a Chuck Norris random joke and *help* to get this instruction again`,
         params
     );
 }
