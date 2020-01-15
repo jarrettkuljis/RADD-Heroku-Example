@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const bot = new SlackBot({
     token: process.env.TOKEN,
-    name: 'Sarcasti'
+    name: 'raddybot'
 })
 
 
