@@ -62,7 +62,7 @@ function runRADD() {
 
     bot.postMessageToChannel(
         'radd-heroku-demo',
-        `Type *@sarcasti* with *inspire me* to get a techie quote, *random joke* to get a Chuck Norris random joke and *help* to get this instruction again`,
+        `Isn't this meeting supposed to talk about scaling web applications with Heroku? Perhaps you should check this out, https://blog.heroku.com/heroku-autoscaling#get-started`,
         params
     );
 }
