@@ -8,6 +8,7 @@ const bot = new SlackBot({
     name: 'sarcasti-bot'
 })
 
+
 // Start Handler
 bot.on('start', () => {
     const params = {
