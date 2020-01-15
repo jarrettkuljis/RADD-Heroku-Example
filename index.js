@@ -50,6 +50,7 @@ function handleMessage(message) {
     } else if(message.includes(' help')) {
         runHelp()
     }
+    
 }
 
 // inspire Me
