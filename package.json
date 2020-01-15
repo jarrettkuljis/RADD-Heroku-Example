@@ -1,7 +1,7 @@
 {
-  "name": "inspireNuggetsSlackBot",
+  "name": "RADDSlackBot",
   "version": "1.0.0",
-  "description": "A simple Slackbot that displays random inspiring techie quotes and jokes for developers/designers.",
+  "description": "A simple Slackbot for developers/designers.",
   "main": "index.js",
   "engines": {
     "node": "10.16.0"
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BolajiAyodeji/inspireNuggetsSlackBot.git"
+    "url": "git+https://github.com/jarrettkuljis/RADD-Heroku-Example.git"
   },
-  "author": "Bolaji Ayodeji",
+  "author": "Jarrett Kuljis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BolajiAyodeji/inspireNuggetsSlackBot/issues"
+    "url": "https://github.com/jarrettkuljis/RADD-Heroku-Example/issues"
   },
-  "homepage": "https://github.com/BolajiAyodeji/inspireNuggetsSlackBot#readme",
+  "homepage": "https://github.com/jarrettkuljis/RADD-Heroku-Example#readme",
   "devDependencies": {
     "nodemon": "^1.19.1"
   },
