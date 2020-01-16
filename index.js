@@ -51,8 +51,22 @@ function handleMessage(message) {
         runHelp()
     } else if(message.includes( 'radd')) {
         runRADD()
+    } else if(message.includes( 'how')) {
+        runHow();
     }
 
+}
+
+function runHow() {
+    const params = {
+        icon_emoji: ':question:'
+    }
+
+    bot.postMessageToChannel(
+        'radd-heroku-demo',
+        `Now brown cow`,
+        params
+    );
 }
 
 function runRADD() {
